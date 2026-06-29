@@ -34,23 +34,21 @@ The dataset contains information including:
 
 Explore the interactive dashboard here:
 
-** Tableau Public**
+**Tableau Public**
 
 https://public.tableau.com/views/VideoGameData_17823835098110/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-![Dashboard](video_game_dashboard.png)
+![Dashboard](video_game_dashboard.PNG)
 
 # Python Analysis
 
 Python was used to clean the dataset, perform exploratory data analysis, and generate visualizations used to support the Tableau dashboard.
+## Python Scripts
 
-## Total Sales by Genre
-
-Analyzes total global sales for each game genre.
-
-![Genre Sales](python/genre%20sales.png)
-
----
+- [Genre Sales Analysis](python/genre%20sales.py)
+- [Critic Score vs Sales](python/sales%20vs%20criticscore.py)
+- [Regional Breakdown](python/regional%20breakdown.py)
+- [Genre Over Time](python/genre%20sales%20over%20time.py)
 
 ## Critic Score vs Total Sales
 
@@ -73,26 +71,6 @@ Compares total sales across different regions.
 Visualizes how genre popularity changed over the available release years.
 
 ![Genre Sales Over Time](python/genre%20sales%20over%20time.png)
-
----
-
-# Repository Structure
-
-```
-.
-├── python/
-│   ├── genre sales.py
-│   ├── genre sales over time.py
-│   ├── regional breakdown.py
-│   ├── sales vs criticscore.py
-│   ├── genre sales.png
-│   ├── genre sales over time.png
-│   ├── critic score vs total sales.png
-│   └── total sales by region.png
-│
-├── Video Games Sales (1980-2024) - Raw.csv
-└── README.md
-```
 
 ---
 
