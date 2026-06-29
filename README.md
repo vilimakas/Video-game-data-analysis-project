@@ -38,7 +38,7 @@ Explore the interactive dashboard here:
 
 https://public.tableau.com/views/VideoGameData_17823835098110/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-![Dashboard](video_game_dashboard.PNG)
+![Dashboard](video_game_data_dashboard.PNG)
 
 # Python Analysis
 
